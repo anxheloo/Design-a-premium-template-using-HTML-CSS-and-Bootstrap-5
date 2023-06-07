@@ -1,0 +1,180 @@
+body {
+  font-family: "Barlow", sans-serif;
+  line-height: 1.7;
+  color: #516171;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+  color: #092032;
+}
+
+a {
+  color: #092032;
+}
+
+img {
+  width: 100%;
+}
+
+/* .bg-cover {
+  background-position: center !important;
+  background-size: cover !important;
+} */
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/*NAVBAR*/
+
+.top-nav {
+  background: #ff4d29;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.top-nav p {
+  margin-bottom: 0;
+  display: inline-block;
+  margin-right: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.top-nav i,
+.top-nav span {
+  vertical-align: middle;
+}
+
+.social-links a {
+  width: 34px;
+  height: 34px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.4s ease;
+}
+
+.social-links a:hover {
+  background-color: #fff;
+  color: #ff4d29;
+}
+
+.navbar {
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:hover {
+  color: #ff4d29;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 26px;
+  color: #092032;
+}
+.navbar-brand span {
+  color: #ff4d29;
+}
+
+.navbar-nav li a {
+  font-weight: 500;
+}
+
+/*BTN*/
+.mybtn {
+  padding: 8px 24px;
+  background-color: #ff4d29;
+  color: #fff;
+  border-color: #ff4d29;
+}
+
+.mybtn:hover {
+  background: transparent !important;
+  border-color: #ff4d29;
+}
+
+.mybtn1 {
+  color: #fff;
+  border-color: #fff;
+}
+.mybtn1:hover {
+  background: #ff4d29;
+  color: white;
+}
+
+/* SLIDER */
+.slide1 {
+  background-image: url("/img/bg_banner1.jpg");
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.slide2 {
+  background-image: url("/img/bg_banner2.jpg");
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+.slider-wrapper {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(9, 32, 50, 0.2);
+}
+
+/* Owl CAROUSEL*/
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: calc(50% - 30px);
+  width: 60px !important;
+  height: 60px !important;
+  display: grid;
+  place-items: center;
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border-radius: 50px !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+}
+
+.owl-prev {
+  left: 0;
+}
+.owl-next {
+  right: 0;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+  background-color: #ff4d29 !important;
+}
+
+.navbar .nav-link.active {
+  color: #ff4d29;
+}
+
+/*INFOBOX*/
+
+.info-box img {
+  width: unset;
+}
